@@ -1,3 +1,5 @@
+import DefaultLayout from "@/components/default-layout";
+
 export const metadata = {
   title: "Support - Simple",
   description: "Page description",
@@ -9,7 +11,7 @@ import Cta from "@/components/cta-alternative";
 
 export default function Support() {
   return (
-    <>
+    <DefaultLayout>
       <Hero />
       <Faqs />
       <Cta
@@ -18,6 +20,6 @@ export default function Support() {
         buttonText="Contact Us"
         buttonLink="#0"
       />
-    </>
+    </DefaultLayout>
   );
 }

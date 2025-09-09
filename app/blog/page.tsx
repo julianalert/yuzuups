@@ -1,3 +1,4 @@
+import DefaultLayout from "@/components/default-layout";
 import { getBlogPosts } from "@/components/mdx/utils";
 import PageIllustration from "@/components/page-illustration";
 import PostItem from "@/components/post-item";
@@ -18,9 +19,10 @@ export default function Blog() {
   });
 
   return (
-    <section className="relative">
-      <PageIllustration />
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <DefaultLayout>
+      <section className="relative">
+        <PageIllustration />
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Main content */}
         <div className="mx-auto max-w-3xl pb-12 pt-32 md:pb-20 md:pt-40">
           {/* Section header */}
@@ -66,7 +68,8 @@ export default function Blog() {
             </button>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </DefaultLayout>
   );
 }

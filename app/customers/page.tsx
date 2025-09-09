@@ -1,22 +1,24 @@
+import DefaultLayout from "@/components/default-layout";
+
 export const metadata = {
-  title: "Apps - Simple",
+  title: "Customers - Simple",
   description: "Page description",
 };
 
 import Hero from "./hero";
-import AppList from "@/components/app-list";
+import WallOfLove from "@/components/wall-of-love";
 import Cta from "@/components/cta-alternative";
 
-export default function Apps() {
+export default function Customers() {
   return (
-    <>
+    <DefaultLayout>
       <Hero />
-      <AppList />
+      <WallOfLove />
       <Cta
         heading="Create your next project with Simple"
         buttonText="Start Free Trial"
         buttonLink="#0"
       />
-    </>
+    </DefaultLayout>
   );
 }

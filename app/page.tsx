@@ -1,4 +1,4 @@
-import DefaultLayout from "./(default)/layout";
+import DefaultLayout from "@/components/default-layout";
 
 export const metadata = {
   title: "Home - Simple",

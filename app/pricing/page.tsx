@@ -1,3 +1,5 @@
+import DefaultLayout from "@/components/default-layout";
+
 export const metadata = {
   title: "Pricing - Simple",
   description: "Page description",
@@ -11,7 +13,7 @@ import Cta from "@/components/cta-alternative";
 
 export default function Pricing() {
   return (
-    <>
+    <DefaultLayout>
       <PricingTables />
       <ComparePlans />
       <TestimonialsGrid />
@@ -22,6 +24,6 @@ export default function Pricing() {
         buttonText="Start Free Trial"
         buttonLink="#0"
       />
-    </>
+    </DefaultLayout>
   );
 }
