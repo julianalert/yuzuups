@@ -106,7 +106,7 @@ export default function PricingTablesHome() {
                     <span className="pl-1 text-sm text-gray-400">/month</span>
                   </div>
                   <div className="text-sm text-gray-300">
-                    For seed stage & series A startups, looking to grow.
+                    For seed & series A startups, looking to grow.
                   </div>
                 </div>
                 <ul className="grow space-y-2 text-sm text-gray-500">
