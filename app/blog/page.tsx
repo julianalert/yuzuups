@@ -18,6 +18,9 @@ export default function Blog() {
       : 1;
   });
 
+  // Show first 6 posts only for server-side rendering
+  const visiblePosts = allBlogs.slice(0, 6);
+
   return (
     <DefaultLayout>
       <section className="relative">
