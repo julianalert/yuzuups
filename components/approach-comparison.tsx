@@ -23,16 +23,16 @@ export default function ApproachComparison() {
               className="mb-4 text-3xl font-bold text-gray-200 md:text-4xl"
               data-aos="zoom-y-out"
             >
-              Your inbox feels like a graveyard, <br className="max-lg:hidden" />message after message with no replies.
+              You're not booking meetings <br className="max-lg:hidden" /> because you're chasing the wrong people.
             </h2>
             <p 
               className="text-lg text-gray-400"
               data-aos="zoom-y-out" 
               data-aos-delay={150}
             >
-              You keep grinding on LinkedIn, Apollo, scraping tools, and spreadsheets…<br />
-              But the harder you push, the colder your pipeline gets. ❄️<br />
-              It’s frustrating, demoralizing, and slowly draining the energy you could be spending actually closing deals.
+              90% of your time is wasted on the wrong prospects.<br className="max-lg:hidden" />
+              LinkedIn, Apollo, scraping tools, spreadsheets — they eat your day, but don’t fill your calendar.<br className="max-lg:hidden" />
+              The result? A reply rate stuck in the low single digits, with cold leads that will never buy.
             </p>
           </div>
 

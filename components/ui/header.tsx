@@ -25,17 +25,17 @@ export default function Header() {
                   How it works
                 </Link>
               </li>
-              <li className="px-3 py-1">
+               {/*<li className="px-3 py-1">
                 <Link
                   href="/blog"
                   className="flex items-center text-gray-700 transition hover:text-gray-900"
                 >
                   Customers
                 </Link>
-              </li>
+              </li>*/}
               <li className="px-3 py-1">
                 <Link
-                  href="/pricing"
+                  href="#pricing"
                   className="flex items-center text-gray-700 transition hover:text-gray-900"
                 >
                   Pricing
@@ -86,10 +86,10 @@ export default function Header() {
             </li>*/}
             <li>
               <Link
-                href="/signup"
+                href="/onboarding"
                 className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
               >
-                See if I qualify
+                Try for free
               </Link>
             </li>
           </ul>

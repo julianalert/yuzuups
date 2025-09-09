@@ -24,9 +24,8 @@ export default function FeaturesDelivery() {
             </h2>
             <p className="text-lg text-gray-700">
             Qualified prospects showing high buying intent for your offer.<br />
-        Landing wherever you want every monday morning. <br />
-        Perfectly matched to your ICP.
-              
+        Landing in your Gmail/Slack/Hubspot every morning. <br />
+              So you can start closing deals.
             </p>
           </div>
           
@@ -99,7 +98,7 @@ export default function FeaturesDelivery() {
                 <span>Lightning fast setup</span>
               </h3>
               <p className="text-[15px] text-gray-700">
-                All you have to do is share your website URL, our team will identify your ICP.
+                All you have to do is share your website URL. It is that simple.
               </p>
             </article>
             <article>

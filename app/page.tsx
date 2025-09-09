@@ -13,6 +13,7 @@ import FeaturesDelivery from "@/components/features-delivery";
 import FeaturesPlanet from "@/components/features-planet";
 import Features from "@/components/features-home";
 import TestimonialsCarousel from "@/components/testimonials-carousel";
+import PricingTablesHome from "@/components/pricing-tables-home";
 import Cta from "@/components/cta";
 import FaqSection from "@/components/faq-section";
 
@@ -24,8 +25,9 @@ export default function Home() {
       <ApproachComparison />
       <FeaturesDelivery />
       <TestimonialsCarousel />
-      <Cta />
-      {/*<FaqSection />*/}
+      <PricingTablesHome />
+      {/*<FaqSection />
+      <Cta />*/}
     </DefaultLayout>
   );
 }
