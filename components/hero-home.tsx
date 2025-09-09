@@ -104,7 +104,7 @@ export default function HeroHome() {
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="/blog"
                   >
-                    Read Customer Success Stories
+                    Read Customers Success Stories
                   </a>
                 </div>
               </div>
