@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import PageIllustration from "@/components/page-illustration";
 
 export default function Onboarding() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -40,7 +39,6 @@ export default function Onboarding() {
   return (
     <div className="min-h-screen bg-gray-50">
       <section className="relative">
-        <PageIllustration />
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="pb-8 pt-12 md:pb-16 md:pt-20">
             {/* Page header */}
