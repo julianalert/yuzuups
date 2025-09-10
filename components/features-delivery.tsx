@@ -23,9 +23,9 @@ export default function FeaturesDelivery() {
               Your next customers delivered to you, <br className="max-lg:hidden" />every morning.
             </h2>
             <p className="text-lg text-gray-700">
-            Qualified prospects showing high buying intent for your offer.<br />
-        Landing in your Gmail/Slack/Hubspot every morning. <br />
-              So you can start closing deals.
+A system that identify your real buyers (not random contacts from a scraping tool).<br className="max-lg:hidden" />
+Verify and enrich every lead with fresh data.<br className="max-lg:hidden" />
+So you’re spending your time on the 50 people most likely to say yes.
             </p>
           </div>
           
@@ -95,7 +95,7 @@ export default function FeaturesDelivery() {
                 >
                   <path d="m15.447 6.605-.673-.336a6.973 6.973 0 0 0-.761-1.834l.238-.715a.999.999 0 0 0-.242-1.023l-.707-.707a.995.995 0 0 0-1.023-.242l-.715.238a6.96 6.96 0 0 0-1.834-.761L9.394.552A1 1 0 0 0 8.5-.001h-1c-.379 0-.725.214-.895.553l-.336.673a6.973 6.973 0 0 0-1.834.761l-.715-.238a.997.997 0 0 0-1.023.242l-.707.707a1.001 1.001 0 0 0-.242 1.023l.238.715a6.959 6.959 0 0 0-.761 1.834l-.673.336a1 1 0 0 0-.553.895v1c0 .379.214.725.553.895l.673.336c.167.653.425 1.268.761 1.834l-.238.715a.999.999 0 0 0 .242 1.023l.707.707a.997.997 0 0 0 1.023.242l.715-.238a6.959 6.959 0 0 0 1.834.761l.336.673a1 1 0 0 0 .895.553h1c.379 0 .725-.214.895-.553l.336-.673a6.973 6.973 0 0 0 1.834-.761l.715.238a1.001 1.001 0 0 0 1.023-.242l.707-.707c.268-.268.361-.664.242-1.023l-.238-.715a6.959 6.959 0 0 0 .761-1.834l.673-.336A1 1 0 0 0 16 8.5v-1c0-.379-.214-.725-.553-.895ZM8 13a5 5 0 1 1 .001-10.001 5 5 0 0 1 0 10.001Z" />
                 </svg>
-                <span>Lightning fast setup</span>
+                <span>Sign up in 10 seconds</span>
               </h3>
               <p className="text-[15px] text-gray-700">
                 All you have to do is share your website URL. It is that simple.
@@ -111,10 +111,10 @@ export default function FeaturesDelivery() {
                 >
                   <path d="M2 0a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2H2Zm0 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7Zm1-3a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H3Z" />
                 </svg>
-                <span>Lead Gen Engine</span>
+                <span>Receive leads every morning</span>
               </h3>
               <p className="text-[15px] text-gray-700">
-                Our engine will source qualified prospects that match your ICP from 10+ sources. Each lead is enriched with verified business email address, company information, and behavioral insights.
+              You receive the leads wherever you like (Gmail, Slack, Hubspot, etc.). 
               </p>
             </article>
             <article>
@@ -127,10 +127,10 @@ export default function FeaturesDelivery() {
                 >
                   <path d="M14.75 2.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Zm0 13.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM2.5 14.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM1.25 2.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM4 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm4-6a6 6 0 1 0 0 12A6 6 0 0 0 8 2Z" />
                 </svg>
-                <span>Ready for outreach</span>
+                <span>Start reaching out</span>
               </h3>
               <p className="text-[15px] text-gray-700">
-                You receive the leads wherever you like (Gmail, Slack, Hubspot, etc.). You're ready to skyrocket your reply rate.
+                You're ready to skyrocket your reply rate and number of calls booked.
               </p>
             </article>
           </div>

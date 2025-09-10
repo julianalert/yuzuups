@@ -10,12 +10,11 @@ export default function PricingTablesHome() {
           {/* Section header */}
           <div className="pb-12 text-center">
             <h2 className="mb-6 border-y border-slate-300 text-5xl font-bold md:text-5xl">
-              Plans that match your needs
+                The right leads, at the right stage of your growth
             </h2>
             <div className="mx-auto max-w-3xl">
               <p className="text-lg text-gray-700">
-                No matter how many leads you need - our pricing is
-                simple, transparent and adapts to the size of your company.
+              Get a predictable stream of verified prospects delivered daily, with plans designed to fuel your next stage of growth.
               </p>
             </div>
           </div>
@@ -32,12 +31,12 @@ export default function PricingTablesHome() {
                   <div className="mb-4 flex items-baseline border-b border-dashed border-gray-200 pb-4">
                     <span className="text-2xl font-bold">$</span>
                     <span className="text-4xl font-bold tabular-nums">
-                      297
+                      247
                     </span>
                     <span className="pl-1 text-sm text-gray-500">/month</span>
                   </div>
                   <div className="grow text-sm text-gray-700">
-                    For early stage startups, still looking for traction.
+                    For early stage startups, still looking for traction and product-market fit.
                   </div>
                 </div>
                 <ul className="grow space-y-2 text-sm text-gray-500">
@@ -49,7 +48,7 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>10 leads per day</span>
+                    <span>50 leads per week</span>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -59,7 +58,7 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Verified emails only</span>
+                    <span>1 sourcing agent deployed</span>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -69,25 +68,15 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Behavorial insights</span>
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 h-3 w-3 shrink-0 fill-current text-emerald-500"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>High-intent buyers</span>
+                    <span>Sent every morning</span>
                   </li>
                 </ul>
                 <div className="mt-6">
                   <a
                     className="btn-sm w-full rounded-lg bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-1.5 text-white shadow-sm hover:bg-[length:100%_150%]"
-                    href="/onboarding"
+                    href="https://tally.so/r/w22k0g"
                   >
-                    Try for free
+                    Start for free
                   </a>
                 </div>
               </div>
@@ -106,7 +95,7 @@ export default function PricingTablesHome() {
                     <span className="pl-1 text-sm text-gray-400">/month</span>
                   </div>
                   <div className="text-sm text-gray-300">
-                    For seed & series A startups, looking to grow.
+                    For seed & series A startups, looking for revenue growth.
                   </div>
                 </div>
                 <ul className="grow space-y-2 text-sm text-gray-500">
@@ -118,7 +107,7 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>30 leads per day</span>
+                    <span>25 leads per day</span>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -128,7 +117,7 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Verified emails only</span>
+                    <span>3-5 sourcing agents deployed</span>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -138,25 +127,15 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Behavorial insights</span>
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 h-3 w-3 shrink-0 fill-current text-emerald-500"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>High-intent buyers</span>
+                    <span>Sent every morning</span>
                   </li>
                 </ul>
                 <div className="mt-6">
                   <a
                     className="btn-sm w-full rounded-lg bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-1.5 text-white shadow-sm hover:bg-[length:100%_150%]"
-                    href="/onboarding"
+                    href="https://tally.so/r/w22k0g"
                   >
-                    Try for free
+                    Start for free
                   </a>
                 </div>
               </div>
@@ -175,7 +154,7 @@ export default function PricingTablesHome() {
                     <span className="pl-1 text-sm text-gray-500">/month</span>
                   </div>
                   <div className="grow text-sm text-gray-700">
-                    For Series B startups & beyond, looking to scale.
+                    For Series B startups & beyond, looking to scale through product-led growth.
                   </div>
                 </div>
                 <ul className="grow space-y-2 text-sm text-gray-500">
@@ -197,7 +176,7 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Verified emails only</span>
+                    <span>10+ sourcing agents deployed</span>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -207,25 +186,15 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Behavorial insights</span>
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 h-3 w-3 shrink-0 fill-current text-emerald-500"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>High-intent buyers</span>
+                    <span>Sent every morning</span>
                   </li>
                 </ul>
                 <div className="mt-6">
                   <a
                     className="btn-sm w-full rounded-lg bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-1.5 text-white shadow-sm hover:bg-[length:100%_150%]"
-                    href="/onboarding"
+                    href="https://tally.so/r/w22k0g"
                   >
-                    Try for free
+                    Start for free
                   </a>
                 </div>
               </div>

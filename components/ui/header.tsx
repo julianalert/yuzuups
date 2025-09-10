@@ -86,10 +86,10 @@ export default function Header() {
             </li>*/}
             <li>
               <Link
-                href="/onboarding"
+                href="https://tally.so/r/w22k0g"
                 className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
               >
-                Try for free
+                Start for free
               </Link>
             </li>
           </ul>

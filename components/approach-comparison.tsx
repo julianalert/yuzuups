@@ -31,7 +31,7 @@ export default function ApproachComparison() {
               data-aos-delay={150}
             >
               90% of your time is wasted on the wrong prospects.<br className="max-lg:hidden" />
-              LinkedIn, Apollo, scraping tools, spreadsheets — they eat your day, but don’t fill your calendar.<br className="max-lg:hidden" />
+              LinkedIn, Apollo, scraping tools, spreadsheets: they eat your day, but don’t fill your calendar.<br className="max-lg:hidden" />
               The result? A reply rate stuck in the low single digits, with cold leads that will never buy.
             </p>
           </div>

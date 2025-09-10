@@ -14,6 +14,7 @@ import FeaturesPlanet from "@/components/features-planet";
 import Features from "@/components/features-home";
 import TestimonialsCarousel from "@/components/testimonials-carousel";
 import PricingTablesHome from "@/components/pricing-tables-home";
+import WallOfLove from "@/components/wall-of-love";
 import Cta from "@/components/cta";
 import FaqSection from "@/components/faq-section";
 
@@ -26,8 +27,9 @@ export default function Home() {
       <FeaturesDelivery />
       <TestimonialsCarousel />
       <PricingTablesHome />
-      {/*<FaqSection />
-      <Cta />*/}
+     {/*<WallOfLove />
+      <FaqSection />*/}
+      <Cta />
     </DefaultLayout>
   );
 }
