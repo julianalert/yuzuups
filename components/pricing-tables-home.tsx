@@ -31,7 +31,7 @@ export default function PricingTablesHome() {
                   <div className="mb-4 flex items-baseline border-b border-dashed border-gray-200 pb-4">
                     <span className="text-2xl font-bold">$</span>
                     <span className="text-4xl font-bold tabular-nums">
-                      247
+                      97
                     </span>
                     <span className="pl-1 text-sm text-gray-500">/month</span>
                   </div>
@@ -90,7 +90,7 @@ export default function PricingTablesHome() {
                   <div className="mb-4 flex items-baseline border-b border-dashed border-gray-600 pb-4">
                     <span className="text-2xl font-bold text-gray-200">$</span>
                     <span className="text-4xl font-bold tabular-nums text-gray-200">
-                      497
+                      247
                     </span>
                     <span className="pl-1 text-sm text-gray-400">/month</span>
                   </div>
@@ -107,7 +107,7 @@ export default function PricingTablesHome() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>25 leads per day</span>
+                    <span>20 leads per day</span>
                   </li>
                   <li className="flex items-center">
                     <svg

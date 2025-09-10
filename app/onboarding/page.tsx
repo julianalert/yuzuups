@@ -52,14 +52,14 @@ export default function Onboarding() {
             </div>
 
             {/* Onboarding form */}
-            <div className="mx-auto max-w-lg">
-              <div className="rounded-2xl bg-white/70 p-6 shadow-lg shadow-black/[0.03] backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(var(--color-gray-100),var(--color-gray-200))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] relative">
-                <form className="space-y-4" onSubmit={handleSubmit}>
+            <div className="mx-auto max-w-md">
+              <div className="rounded-2xl bg-white/70 p-5 shadow-lg shadow-black/[0.03] backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(var(--color-gray-100),var(--color-gray-200))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] relative">
+                <form className="space-y-3" onSubmit={handleSubmit}>
                   {/* First Name */}
                   <div>
                     <label
                       htmlFor="firstName"
-                      className="mb-2 block text-sm font-medium text-gray-900"
+                      className="mb-1.5 block text-sm font-medium text-gray-900"
                     >
                       First Name *
                     </label>
@@ -68,7 +68,7 @@ export default function Onboarding() {
                       id="firstName"
                       name="firstName"
                       required
-                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
                       placeholder="Enter your first name"
                     />
                   </div>
@@ -77,7 +77,7 @@ export default function Onboarding() {
                   <div>
                     <label
                       htmlFor="lastName"
-                      className="mb-2 block text-sm font-medium text-gray-900"
+                      className="mb-1.5 block text-sm font-medium text-gray-900"
                     >
                       Last Name *
                     </label>
@@ -86,7 +86,7 @@ export default function Onboarding() {
                       id="lastName"
                       name="lastName"
                       required
-                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
                       placeholder="Enter your last name"
                     />
                   </div>
@@ -95,7 +95,7 @@ export default function Onboarding() {
                   <div>
                     <label
                       htmlFor="email"
-                      className="mb-2 block text-sm font-medium text-gray-900"
+                      className="mb-1.5 block text-sm font-medium text-gray-900"
                     >
                       Email Address *
                     </label>
@@ -104,7 +104,7 @@ export default function Onboarding() {
                       id="email"
                       name="email"
                       required
-                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
                       placeholder="Enter your email address"
                     />
                   </div>
@@ -113,7 +113,7 @@ export default function Onboarding() {
                   <div>
                     <label
                       htmlFor="website"
-                      className="mb-2 block text-sm font-medium text-gray-900"
+                      className="mb-1.5 block text-sm font-medium text-gray-900"
                     >
                       Website URL *
                     </label>
@@ -122,7 +122,7 @@ export default function Onboarding() {
                       id="website"
                       name="website"
                       required
-                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+                      className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
                       placeholder="https://yourwebsite.com"
                     />
                   </div>
@@ -132,7 +132,7 @@ export default function Onboarding() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full rounded-lg bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-2.5 text-white font-medium shadow-sm hover:bg-[length:100%_150%] focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:ring-offset-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="w-full rounded-lg bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-2 text-white font-medium shadow-sm hover:bg-[length:100%_150%] focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:ring-offset-2 transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       {isSubmitting ? 'Submitting...' : 'Get My First 50 Leads'}
                     </button>
