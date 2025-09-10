@@ -1,8 +1,8 @@
 import DefaultLayout from "@/components/default-layout";
 
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Yuzuu - Get High-Quality Leads Delivered Daily",
+  description: "Stop wasting time on cold outreach. Get verified, high-intent prospects delivered to your inbox every morning. Start with 50 free leads and grow your revenue predictably.",
 };
 
 import Hero from "@/components/hero-home";

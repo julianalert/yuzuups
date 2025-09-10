@@ -71,7 +71,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              DFY Lead Gen For B2B SaaS <br className="max-lg:hidden" />
+              DFY B2B Lead Gen <br className="max-lg:hidden" />
             </h1>
             <div className="mx-auto max-w-3xl">
               <p

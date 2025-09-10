@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Thank You - Yuzuu",
-  description: "Thank you for signing up! Your leads are on the way.",
+  title: "Welcome to Yuzuu! Your Leads Are Coming | Thank You",
+  description: "Success! Your first 50 leads will arrive within 24 hours. Our sourcing agents are already working to find high-quality prospects for your business. Check your inbox tomorrow morning!",
 };
 
 export default function ThankYou() {
