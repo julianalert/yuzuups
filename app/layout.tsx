@@ -26,6 +26,11 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>
+        <script
+          src="https://beamanalytics.b-cdn.net/beam.min.js"
+          data-token="a1af78f4-e22c-412d-9149-42af8e3897e4"
+          async
+        />
       </body>
     </html>
   );
