@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import PageIllustration from "@/components/page-illustration";
 
 export default function Onboarding() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -39,15 +40,18 @@ export default function Onboarding() {
   return (
     <div className="min-h-screen bg-gray-50">
       <section className="relative">
+        <PageIllustration />
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="pb-8 pt-12 md:pb-16 md:pt-20">
             {/* Page header */}
             <div className="mx-auto max-w-3xl pb-8 text-center">
-              <h1 className="mb-4 text-2xl font-bold md:text-3xl">
-                Get your first 50 leads
-              </h1>
+              
+               <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-4xl">
+                 Get your first 50 leads
+               </h1>
+                
               <p className="text-lg text-gray-700">
-                Fill out the form below and we'll start sourcing qualified leads for your business within 24 hours.
+                Fill out the form below, you'll receive qualified leads for your business within 24 hours.
               </p>
             </div>
 
@@ -141,7 +145,7 @@ export default function Onboarding() {
                   {/* Trust message */}
                   <div className="pt-2 text-center">
                     <p className="text-sm text-gray-600">
-                      🔒 Your information is secure and will never be shared.
+                      🥳 Yes, it's free to start 🥳
                     </p>
                   </div>
                 </form>
